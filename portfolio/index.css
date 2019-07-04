@@ -1,0 +1,59 @@
+
+/*
+http://www.flycan.com/article/css/google-fonts-webfont-2474.html#1_cwTeXKai_Chinese_Traditional
+
+https://fonts.google.com/specimen/Noto+Sans+TC?selection.family=Noto+Sans+TC
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100&display=swap&subset=chinese-traditional');
+
+/*
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+*/
+
+/*
+ * cwTeXKai (Chinese Traditional) http://www.google.com/fonts/earlyaccess
+ */
+/*
+@font-face {
+  font-family: 'cwTeXKai';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.ttf) format('truetype');
+*/
+body {
+
+  font-family: 'Noto Sans TC', sans-serif;
+  /*
+  font-family: "cwTeXKai", serif;
+  font-family: ‘cwTeXFangSong’, serif;
+  */  
+}
+
+.row, .col{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+    margin: 10px 10px;
+}
+
+div{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(196,161,224,.15);
+    border: 1px solid rgba(196,161,224,.2);
+    margin: 10px 10px;
+}
+
+
