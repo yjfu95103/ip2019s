@@ -1,0 +1,27 @@
+/*
+
+*/
+
+#list {
+	/* display: none; */
+	display: inline;
+} 
+
+div {
+    border: solid 1px gray;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#BlueFolder {
+    width: 5%;
+    vertical-align: middle;
+}
+
+#drop_zone {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #bbb;
+}

@@ -1,0 +1,57 @@
+<!--
+	https://www.html5rocks.com/en/tutorials/file/dndfiles/
+-->
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <title> lab05 </title>
+  <link rel="stylesheet" href="./lab.css">
+  <script src="./lab.js"></script>
+</head>
+
+<body>
+
+  <!-- 
+  https://www.alt-codes.net/music_note_alt_codes.php 
+  &#119070;&#119073;&#119074;&#9837;&#9838;&#9839;
+  &#119133;&#119134;&#119135;&#119137;&#119138;&#119139;&#119140;
+  -->
+
+  <div>
+    開啟舊檔(提示 0.svg): <input type="file" id="files" name="files[]" multiple />
+    另存新檔: <input id="svgfilename" value="filename.svg"></input><button id="save">Save</button>
+  </div>
+
+  <div>
+    <!-- cols="68" rows="32"> -->
+    <!-- cols="128" rows="32"> -->
+    <textarea id="content" cols="88" rows="32"></textarea>
+    <span id="svgimage"></span>
+  </div>
+
+  <div>
+    <img src="./1.svg">
+  </div>
+
+
+  <div>
+    <span id="drop_zone"> drop a SVG file here <img id="BlueFolder" src="./BlueFolder.svg"></span>
+  </div>
+
+  
+  <div>
+    <output id="list"></out>
+  </div>
+
+  <dir>
+      <a href="https://jakearchibald.github.io/svgomg/">svgomg</a>, 
+      <a href="http://petercollingridge.appspot.com/svg-optimiser">SVG optimiser</a>, 
+      <a href="http://petercollingridge.appspot.com/svg-transforms">SVG transformations</a>
+  </dir>
+
+</body>
+
+</html>
