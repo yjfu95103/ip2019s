@@ -1,0 +1,58 @@
+/*
+	https://www.html5rocks.com/en/tutorials/file/dndfiles/
+    https://www.w3schools.com/css/css_float.asp
+    https://www.w3schools.com/cssref/pr_class_display.asp
+*/
+
+#BlueFolder {
+    width: 10%;
+    vertical-align: middle;
+}
+
+#drop_zone {
+    border: 2px dashed #bbb;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #bbb;
+    font-size: 16pt;
+}
+
+input, output {
+	margin: 10px;
+}
+
+body {
+	border: solid 1px gray;
+	padding: 5px;
+}
+
+div {
+	margin: 10px;
+	border: solid 1px green;
+	padding: 5px;
+}
+
+p {
+	border: solid 1px blue;
+	padding: 5px;
+}
+
+
+span {
+    border: solid 1px navy;
+    padding: 10px;
+}
+
+.svgtext {
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+.svgshow {
+    overflow: auto;
+    min-height: 256px;
+    min-width: 256px;
+    display: inline-block;
+}
