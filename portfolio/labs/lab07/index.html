@@ -1,0 +1,72 @@
+<!--
+	https://www.html5rocks.com/en/tutorials/file/dndfiles/
+-->
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="utf-8">
+  <title> lab07 - parser </title>
+  <link rel="stylesheet" href="./lab.css">
+
+  <script src="./jquery-3.4.1.min.js"></script>
+  <script src="./snap.svg-min.js"></script>
+  <script src="./svg.min.js"></script>
+  <script src="./svg.draggable.min.js"></script>
+  <script src="./lab.js"></script>
+</head>
+
+<body>
+
+  <!--
+  https://www.alt-codes.net/music_note_alt_codes.php
+  &#119070;&#119073;&#119074;&#9837;&#9838;&#9839;
+  &#119133;&#119134;&#119135;&#119137;&#119138;&#119139;&#119140;
+  -->
+
+  <div>
+    &nbsp; 開啟舊檔(3-3-a-3.svg):
+    <input type="file" id="files" name="files[]" multiple />
+    另存新檔:
+    &nbsp; <input id="svgfilename" value="filename.svg"></input><button id="save">Save</button>
+
+    &nbsp; 開始 x <input id="i1" size="8" value="">
+    &nbsp; 開始 y <input id="i2" size="8" value="">
+
+    &nbsp; 結束 x <input id="i3" size="8" value="">
+    &nbsp; 結束 y <input id="i4" size="8" value="">
+  </div>
+
+  <div>
+    <!-- cols="68" rows="32"> -->
+    <!-- cols="128" rows="32"> -->
+    <textarea id="content" cols="88" rows="32"></textarea>
+    <span id="svgimage"></span>
+  </div>
+
+  <span id="svgimage2">
+  </span>
+
+  <div>
+    <span id="drop_zone"> drop a SVG file here <img id="BlueFolder" src="./BlueFolder.svg"></span>
+  </div>
+
+  <div>
+    <output id="list"></out>
+  </div>
+
+  <div>
+      <a href="https://jakearchibald.github.io/svgomg/">svgomg</a>, 
+      <a href="http://petercollingridge.appspot.com/svg-optimiser">SVG optimiser</a>, 
+      <a href="http://petercollingridge.appspot.com/svg-transforms">SVG transformations</a>
+  </div>
+
+  <div id="s5" class="noborder"></div>
+
+  <div>我製作的功能是，設定顏色</div>
+
+
+</body>
+
+</html>

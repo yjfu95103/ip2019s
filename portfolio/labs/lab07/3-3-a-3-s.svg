@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="512" width="512">
+
+  <rect width="512" height="512" stroke="red" fill="white"/>
+
+  <path d="
+    M382 371 
+    C 
+    440 281 80 162 82 314 
+    84 467 324 462 382 371 z" fill="none" stroke="#000" stroke-width="2px" stroke-opacity=".8"/>
+
+  <circle fill="Lavender" stroke="#f0f" cx="382" cy="371" r="16" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze"  />
+  </circle>
+
+  <circle fill="Lavender" stroke="#f00" cx="440" cy="281" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="2s" dur="1s" fill="freeze"  />
+  </circle>
+  <circle fill="Lavender" stroke="#0f0" cx="80" cy="162" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="3s" dur="1s" fill="freeze"  />
+  </circle>
+  <circle fill="Lavender" stroke="#00f" cx="82" cy="314" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="4s" dur="1s" fill="freeze"  />
+  </circle>
+
+  <circle fill="Lavender" stroke="#f00" cx="84" cy="467" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="5s" dur="1s" fill="freeze"  />
+  </circle>
+  <circle fill="Lavender" stroke="#0f0" cx="324" cy="462" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="6s" dur="1s" fill="freeze"  />
+  </circle>    
+  <circle fill="Lavender" stroke="#00f" cx="382" cy="371" r="12" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="7s" dur="1s" fill="freeze"  />
+  </circle>
+
+</svg>
